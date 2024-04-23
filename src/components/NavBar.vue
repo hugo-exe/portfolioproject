@@ -11,9 +11,9 @@
       </v-btn>
 
       <v-toolbar-items class="hidden-sm-and-down"> 
-        <v-btn text @click="('inicio')" href="/" class="text-white">Início</v-btn>
-        <v-btn text @click="('sobre')" href="/about">Sobre mim</v-btn>
-        <v-btn text @click="('projetos')" href="/projetos">Projetos</v-btn>
+        <v-btn text @click="('inicio')" href="#/" class="text-white">Início</v-btn>
+        <v-btn text @click="('sobre')" href="#/about">Sobre mim</v-btn>
+        <v-btn text @click="('projetos')" href="#/projetos">Projetos</v-btn>
       </v-toolbar-items>
     </v-app-bar>
 
