@@ -19,13 +19,13 @@
 
     <v-navigation-drawer app v-model="drawer" temporary right>
       <v-list>
-        <v-list-item @click="('inicio')" href="/">
+        <v-list-item @click="('inicio')" href="#/">
           <v-list-item-title>Início</v-list-item-title>
         </v-list-item>
-        <v-list-item @click="('sobre')" href="/about"> 
+        <v-list-item @click="('sobre')" href="#/about"> 
           <v-list-item-title>Sobre mim</v-list-item-title>
         </v-list-item>
-        <v-list-item @click="('projetos')" href="/projetos">
+        <v-list-item @click="('projetos')" href="#/projetos">
           <v-list-item-title>Projetos</v-list-item-title>
         </v-list-item>
       </v-list>
